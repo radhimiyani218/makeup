@@ -1,0 +1,230 @@
+.bg-color{
+    background-color:#fef4ec;
+    ;
+}
+button{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.btns button{
+    background-color: rgb(51, 50, 50);
+    transition: all 0.5s;
+}
+.btns button a:hover{
+    color: #fef4ec;
+}
+.btns button:hover{
+    background-color: #f5ddb6;
+}
+/* home section */
+.w-50{
+    width: 50%;
+}
+.makeup-img{
+    background-image: url(../img/banner-bg.png);
+}
+.head{
+    font-family: 'Great Vibes', cursive;
+    font-size: 120px;
+    width: 50px;
+    height: 50px;
+   
+}
+/* img{
+    height: 200px;
+    width: 200px;
+} */
+.align-item{
+    align-items: center;
+}
+.justifly-content{
+    justify-content: space-between;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cursive{
+    font-family: 'Great Vibes', cursive;
+
+}
+.open{
+    font-family: 'Open Sans'
+}
+.bt{
+    background-color: #000000 ;
+    color: white;
+    transition: all 0.5s;
+}
+.bt:hover{
+    background-color:#f5ddb6 ;
+}
+/* product section */
+/* .box-1{
+    width: 50px;
+    background-color:#ffffff;
+    border: 1.5px solid rgb(140, 139, 139);
+} */
+.main{
+    border: 1.5px solid rgb(140, 139, 139);
+    margin-left: 20px;
+    margin-right: 20px;
+    /* padding-top: 40px; */
+}
+.bttns{
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+}
+.bttns:hover{
+    background-color: #f5ddb6;
+}
+.bttns:hover a{
+    color: #ffffff;
+}
+/* about section */
+.space{
+    padding-top: 100px;
+}
+.images img{
+    width:50%;
+}
+.buy{
+    font-size: 15px;
+}
+.font-size{
+    font-size: 50px;
+}
+button p{
+    background-color: #f5ddb6;
+}
+.button-price{
+    background-color: #f5ddb6;
+}
+.button-price a{
+    color: #000000;
+}
+
+.product-box{
+    border: 1px solid black;
+}
+.product-box .p-img img{
+    width: 147px;
+    height: 180px;
+
+}
+.w-full img{
+    width: 80%;
+}
+.sidebar{
+    position: fixed;
+    top:0;
+    left:0;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.5s;
+    transform: translateX(-100%);
+}
+.sidebar.active{
+    transform: translateX(-0px);
+}
+.box{
+    width: 1265px;
+    height: 100vh;
+    background-color: #000000dc;
+    display: flex;
+    justify-content:center;
+    align-items: start;
+    padding: 100px;
+}
+.navigation li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-size: 25px;
+    transition: all 0.5s;
+
+}
+.navigation li a:hover{
+    color: #f5ddb6;
+}
+.icon-box{
+    position: absolute;
+    right:0;
+}
+.icon-box i{
+    font-size: 30px;
+    padding: 20px;
+    color: #ffffff;
+}
+.icon-box i:hover{
+    color: #f5ddb6;
+}
+
+ul,ol{
+    list-style: none;
+}
+/* signup section */
+form{
+    background-image: url(../img/1c06808a5ce60abb1fddec46c6e4b75b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#form{
+    /* background-image: url(../img/pexels-𝐕𝐞𝐧𝐮𝐬-𝐇𝐃-𝐌𝐚𝐤𝐞-𝐮𝐩-&-𝐏𝐞𝐫𝐟𝐮𝐦𝐞-2536009.jpg); */
+    color: aliceblue;
+    padding: 50px 0;
+    font-size: 30px;
+}
+input{
+    padding: 5px;
+    font-size: 18px;
+    /* text-transform: capitalize; */
+    border-radius:10px;
+    border: none;
+}
+label{
+    text-transform: capitalize;
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+h2{
+    color:burlywood;
+    font-size: 40px;
+}
+small{
+    color: red;
+}
+.form-control i{
+    color: red;
+    visibility: hidden;
+}
+.form-control i.active{
+    visibility: visible;
+}
+.form-con{
+    border: none;
+}
+.social i{
+    color: #000000;
+    margin-left: 10px;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.form-control{
+    background-color: transparent;
+    border: none;
+}

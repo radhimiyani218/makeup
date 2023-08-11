@@ -1,0 +1,20 @@
+#form{
+    background-image: url(../img/1c06808a5ce60abb1fddec46c6e4b75b.jpg);
+    background-repeat: no-repeat;
+    color: aliceblue;
+    padding: 50px 0;
+    background-size: cover;
+    font-size: 30px;
+}
+input{
+    color:black;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+h2{
+    color:burlywood;
+    font-size: 40px;
+}
+.l-space{
+    margin-top: 137px;
+}
